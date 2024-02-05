@@ -2,8 +2,16 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'neutralSilver' : '#F5F7FA',
+        'neutralDGray' : '#4D4D4D',
+        'brandPrimary' : '#4CAF4F',
+        'neutralGray' : '#717171',
+        'gray900' : '#18191F',
+      }
+    },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin'),],
 }
 
